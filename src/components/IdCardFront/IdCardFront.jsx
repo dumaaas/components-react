@@ -52,7 +52,7 @@ const IdCardFront = (props) => {
                     <text fill="white" fill-opacity="0.1" font-size="80" x="200" y="70" text-anchor="middle" stroke="#E3C5A0" stroke-opacity="0.1" >CG</text>
                 </svg>
                 <span className="circle">
-                    <img src="../image/cg.png" alt=""></img>
+                    <img src="image/cg.png" alt=""></img>
                     <p className="mne-one">MNE</p>
                     <p className="mne-two">MNE</p>
                     <p className="mne-three">MNE</p>
