@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+.wrapper {
+    background: linear-gradient(#7F6065, #638E8D);
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.line2 {
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    background: transparent;
+    border: 0.2px solid #aa485c;
+    border-radius: 150%;
+    transform: rotate(65deg);
+}
+
+.line2-one {
+    top: -47px;
+    opacity: 0.5;
+    left: -126px;
+}
+
+.line2-two {
+    top: -39px;
+    left: -147px;
+    opacity: 0.3;
+}
+
+.line2-three {
+    top: -31px;
+    opacity: 0.25;
+    left: -168px;
+}
+
+.line2-four {
+    top: -24px;
+    opacity: 0.2;
+    left: -189px;
+}
+
+.line {
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    left: 290px;
+    background: transparent;
+    border: 0.2px solid #aa485c;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-top-left-radius: 120%;
+}
+
+.line-one {
+    top: 100px;
+    opacity: 0.5;
+}
+
+.line-two {
+    top: 133px;
+    opacity: 0.3; 
+}
+
+.line-three {
+    top: 164px;
+    opacity: 0.25; 
+}
+
+.line-four {
+    top: 195px;
+    opacity: 0.2;
+}
+
+.cg-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.top-part {
+    display: flex;
+    padding-top: 15px;
+    position: relative;
+}
+
+.top-part p {
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.text {
+    font-size: 19px !important;
+    position: absolute;
+    left: 250px;
+    top:60px;
+    width: 110px;
+    color: white;
+    opacity: 0.2;
+
+}
+
+.top-part span {
+    display: block;
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.top-right {
+    display: flex;
+
+}
+
+.top-right img {
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.top-right p {
+    margin-left: -10px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: #E3C5A0;
+}
+
+.pl-35 {
+    padding-left: 35px;
+}
+
+
+.bottom-part {
+    display: flex;
+    position: relative;
+}
+
+.img-blured {
+    position: absolute;
+    width: 80px;
+    height: 55px;
+    border-radius: 100px;
+    background-color: white;
+    top: 143px;
+    left: 203px;
+    opacity: 0.2;
+}
+
+.img-blured img {
+    filter: blur(1.9px);
+    margin-left: 15px;
+    margin-top: 3px !important;
+    width: 47px;
+    height: 52px;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.1;
+    left: 100px;
+    top: -4px;
+    overflow: hidden;
+}
+
+.circle p {
+    color: #D4AF3A;
+    font-size: 15px;
+    font-weight: 900 !important;
+}
+
+.mne-one {
+    margin-top: 35px !important;
+    margin-left: 35px;
+}
+
+.mne-two {
+    margin-top: -50px !important;
+    margin-left: 50px;
+}
+
+.mne-three {
+    margin-top: -50px !important;
+    margin-left: 65px;
+}
+
+.mne-four {
+    margin-top: -50px !important;
+    margin-left: 80px;
+}
+
+.circle img {
+    width:40px;
+    height: 50px;
+    margin-top: 20px !important;
+    margin-left: 52px;
+}
+
+.bottom-part svg {
+    position: absolute;
+    top: 16px;
+    left: 212px;
+    font-family: 'Rubik', sans-serif;
+    font-stretch: expanded;
+}
+
+.bottom-part span {
+    font-size: 9px;
+    display: block;
+}
+
+.bottom-part p {
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+.bottom-part img {
+    margin-top: 25px;
+}
+
+.signature {
+    font-size: 12px !important;
+    font-family: 'Cedarville Cursive';
+    font-style: oblique;
+}
+
+.-mt-15px {
+    margin-top: -15px;
+}
+
+.mid-part {
+    display: flex;
+    flex-direction: row;
+}
+
+.block {
+    display: block;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
