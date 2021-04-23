@@ -1,4 +1,5 @@
 import './App.css';
+import BookCard from './components/BookCard/BookCard';
 import IdCardFront from './components/IdCardFront/IdCardFront';
 import MovieCard from './components/MovieCard/MovieCard';
 import Wrapper from './components/Wrapper/Wrapper';
@@ -45,6 +46,32 @@ function App() {
           trailer="https://www.youtube.com/watch?v=zSWdZVtXT7E"
           imdb="https://www.imdb.com/title/tt0364569/"
         />
+      </Wrapper>
+      <Wrapper>
+        <BookCard
+          src="https://dumaaas.github.io/components-react/components-react/image/lord.jpg"
+          name="The Fellowship Of The Ring"
+          author="J. R. R. Tolkien"
+          publishYear="July 29, 1954"
+          quote="“Not all those who wander are lost.”"
+          publisher="Allen & Unwin"
+        />
+        <BookCard
+          src="https://dumaaas.github.io/components-react/components-react/image/lord.jpg"
+          name="The Fellowship Of The Ring"
+          author="J. R. R. Tolkien"
+          publishYear="July 29, 1954"
+          quote="“Not all those who wander are lost.”"
+          publisher="Allen & Unwin"
+        />
+        <BookCard
+          src="https://dumaaas.github.io/components-react/components-react/image/lord.jpg"
+          name="The Fellowship Of The Ring"
+          author="J. R. R. Tolkien"
+          publishYear="July 29, 1954"
+          quote="“Not all those who wander are lost.”"
+          publisher="Allen & Unwin"
+          />
       </Wrapper>
     </div>
   );
