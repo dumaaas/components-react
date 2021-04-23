@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,600|Tulpen+One&display=swap');
 
 .wrapper-book {
-    background: #1E1B26;
+    background-image: url("");
     width: 600px;
     height: 450px;
     margin-top: 20px;
@@ -18,6 +18,7 @@
 .book-img {
     width: 50%;
     height: 450px;
+    inset: 0px auto auto 0px
 }
 
 .book-img img {
@@ -29,8 +30,7 @@
     width: 50%;
     height: 450px;
     background: #f2eecb;
-    box-shadow: 0 0.1e 0.9em #777;
-
+    inset: 0px auto auto 0px
 }
 
 .book-content h1 {
