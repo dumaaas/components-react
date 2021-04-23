@@ -10,7 +10,7 @@ function App() {
       <Wrapper>
         <IdCardFront name="Marko" surname="Dumnic" city="Niksic" idPhoto="https://dumaaas.github.io/components-react/image/profilePhoto.png" gender="M/M" citizenship="MNE" birthDate="22.10.1995" idNumber="*********" expire="12.02.2029" signature="Marko Dumnic"/>
         <IdCardFront name="Stefan" surname="Tomovic" city="Podgorica" idPhoto="https://dumaaas.github.io/components-react/image/profilePhoto3.png" gender="M/M" citizenship="MNE" birthDate="31.03.1995" idNumber="*********" expire="01.10.2025" signature="Stefan Tomovic"/>
-        <IdCardFront name="Milos" surname="Jovovic" city="Budva" idPhoto="https://dumaaas.github.io/components-react/image/profilePhoto2.png" gender="M/M" citizenship="MNE" birthDate="29.09.1995" idNumber="*********" expire="26.04.2027" signature="Milos Jovovic"/>
+        <IdCardFront name="Milos" surname="Jovovic" city="Budva" idPhoto="https://dumaaas.github.io/components-react/image/profilePhoto2.png" gender="M/M" citizenship="MNE" birthDate="15.01.1995" idNumber="*********" expire="26.04.2027" signature="Milos Jovovic"/>
       </Wrapper>
       <Wrapper>
         <MovieCard 
@@ -57,20 +57,20 @@ function App() {
           publisher="Allen & Unwin"
         />
         <BookCard
-          src="https://dumaaas.github.io/components-react/image/lord.jpg"
-          name="The Fellowship Of The Ring"
-          author="J. R. R. Tolkien"
-          publishYear="July 29, 1954"
-          quote="“Not all those who wander are lost.”"
-          publisher="Allen & Unwin"
+          src="http://localhost:3000/components-react/image/mocking.jpg"
+          name="To Kill A Mockingbird"
+          author="Harper Lee"
+          publishYear="July 11, 1960"
+          quote="“People generally see what they look for, and hear what they listen for.”"
+          publisher="J. B. Lippincott & Co."
         />
         <BookCard
-          src="https://dumaaas.github.io/components-react/image/lord.jpg"
-          name="The Fellowship Of The Ring"
-          author="J. R. R. Tolkien"
-          publishYear="July 29, 1954"
-          quote="“Not all those who wander are lost.”"
-          publisher="Allen & Unwin"
+          src="http://localhost:3000/components-react/image/davinci.jpg"
+          name="The Da Vinci Code"
+          author="Dan Brown"
+          publishYear="March 18, 2003"
+          quote="“Life is filled with secrets. You can't learn them all at once.”"
+          publisher="Doubleday"
           />
       </Wrapper>
     </div>

@@ -28,7 +28,9 @@
 .book-content {
     width: 50%;
     height: 450px;
-    background: #F5F5F5;
+    background: #f2eecb;
+    box-shadow: 0 0.1e 0.9em #777;
+
 }
 
 .book-content h1 {
@@ -40,7 +42,7 @@
     color: #2A2935;
     font-size: 43.2px;
     text-align: center;
-    padding-left:40px;
+    padding-left: 40px;
     padding-right: 40px;
 }
 
@@ -84,6 +86,10 @@
 }
 
 .publisher {
-    margin-top: 55px !important;
+    position: absolute;
+    bottom: 15px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
