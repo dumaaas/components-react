@@ -49,7 +49,7 @@ function App() {
       </Wrapper>
       <Wrapper>
         <BookCard
-          src="https://dumaaas.github.io/components-react/components-react/image/lord.jpg"
+          src="https://dumaaas.github.io/components-react/image/lord.jpg"
           name="The Fellowship Of The Ring"
           author="J. R. R. Tolkien"
           publishYear="July 29, 1954"
@@ -57,7 +57,7 @@ function App() {
           publisher="Allen & Unwin"
         />
         <BookCard
-          src="https://dumaaas.github.io/components-react/components-react/image/lord.jpg"
+          src="https://dumaaas.github.io/components-react/image/lord.jpg"
           name="The Fellowship Of The Ring"
           author="J. R. R. Tolkien"
           publishYear="July 29, 1954"
@@ -65,7 +65,7 @@ function App() {
           publisher="Allen & Unwin"
         />
         <BookCard
-          src="https://dumaaas.github.io/components-react/components-react/image/lord.jpg"
+          src="https://dumaaas.github.io/components-react/image/lord.jpg"
           name="The Fellowship Of The Ring"
           author="J. R. R. Tolkien"
           publishYear="July 29, 1954"
