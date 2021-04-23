@@ -57,7 +57,7 @@ function App() {
           publisher="Allen & Unwin"
         />
         <BookCard
-          src="http://localhost:3000/components-react/image/mocking.jpg"
+          src="https://dumaaas.github.io/components-react/image/mocking.jpg"
           name="To Kill A Mockingbird"
           author="Harper Lee"
           publishYear="July 11, 1960"
@@ -65,7 +65,7 @@ function App() {
           publisher="J. B. Lippincott & Co."
         />
         <BookCard
-          src="http://localhost:3000/components-react/image/davinci.jpg"
+          src="https://dumaaas.github.io/components-react/image/davinci.jpg"
           name="The Da Vinci Code"
           author="Dan Brown"
           publishYear="March 18, 2003"
