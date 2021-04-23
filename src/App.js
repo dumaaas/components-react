@@ -14,7 +14,7 @@ function App() {
       <Wrapper>
         <MovieCard 
           name="Interstellar"
-          image="http://localhost:3000/components-react/image/interstellar.jpg" 
+          image="https://dumaaas.github.io/components-react/image/interstellar.jpg" 
           genre="Adventure, Drama, Sci-Fi" 
           director="Christopher Nolan" 
           releaseYear="2014" 
@@ -25,7 +25,7 @@ function App() {
         />
         <MovieCard 
           name="Fight Club" 
-          image="http://localhost:3000/components-react/image/fightclub.jpg" 
+          image="https://dumaaas.github.io/components-react/image/fightclub.jpg" 
           genre="Drama" 
           director="David Fincher" 
           releaseYear="1999" 
@@ -36,7 +36,7 @@ function App() {
         />
         <MovieCard 
           name="Oldboy" 
-          image="http://localhost:3000/components-react/image/oldboy2.jpg" 
+          image="https://dumaaas.github.io/components-react/image/oldboy2.jpg" 
           genre=" Action, Drama, Mystery" 
           director="Chan-wook Park" 
           releaseYear="2003" 
