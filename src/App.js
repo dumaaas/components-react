@@ -7,11 +7,51 @@ import Wrapper from './components/Wrapper/Wrapper';
 function App() {
   return (
     <div className="App">
+      <p className="card-p">
+        <span className="card-title">
+          ID cards:
+        </span>
+      </p>
       <Wrapper>
-        <IdCardFront name="Marko" surname="Dumnic" city="Niksic" idPhoto="https://dumaaas.github.io/components-react/image/profilePhoto.png" gender="M/M" citizenship="MNE" birthDate="22.10.1995" idNumber="*********" expire="12.02.2029" signature="Marko Dumnic"/>
-        <IdCardFront name="Stefan" surname="Tomovic" city="Podgorica" idPhoto="https://dumaaas.github.io/components-react/image/profilePhoto3.png" gender="M/M" citizenship="MNE" birthDate="31.03.1995" idNumber="*********" expire="01.10.2025" signature="Stefan Tomovic"/>
-        <IdCardFront name="Milos" surname="Jovovic" city="Budva" idPhoto="https://dumaaas.github.io/components-react/image/profilePhoto2.png" gender="M/M" citizenship="MNE" birthDate="15.01.1995" idNumber="*********" expire="26.04.2027" signature="Milos Jovovic"/>
+        <IdCardFront 
+          name="Marko" 
+          surname="Dumnic" 
+          city="Niksic" 
+          idPhoto="https://dumaaas.github.io/components-react/image/profilePhoto.png" 
+          gender="M/M" 
+          citizenship="MNE" 
+          birthDate="22.10.1995" 
+          idNumber="*********" 
+          expire="12.02.2029" 
+          signature="Marko Dumnic"/>
+        <IdCardFront 
+          name="Stefan" 
+          surname="Tomovic" 
+          city="Podgorica" 
+          idPhoto="https://dumaaas.github.io/components-react/image/profilePhoto3.png" 
+          gender="M/M" 
+          citizenship="MNE" 
+          birthDate="31.03.1995" 
+          idNumber="*********" 
+          expire="01.10.2025" 
+          signature="Stefan Tomovic"/>
+        <IdCardFront 
+          name="Milos" 
+          surname="Jovovic" 
+          city="Budva" 
+          idPhoto="https://dumaaas.github.io/components-react/image/profilePhoto2.png" 
+          gender="M/M" 
+          citizenship="MNE" 
+          birthDate="15.01.1995" 
+          idNumber="*********" 
+          expire="26.04.2027" 
+          signature="Milos Jovovic"/>
       </Wrapper>
+      <p className="card-p">
+        <span className="card-title">
+          Movie cards:
+        </span>
+      </p>
       <Wrapper>
         <MovieCard 
           name="Interstellar"
@@ -47,6 +87,11 @@ function App() {
           imdb="https://www.imdb.com/title/tt0364569/"
         />
       </Wrapper>
+      <p className="card-p">
+        <span className="card-title">
+          Book cards:
+        </span>
+      </p>
       <Wrapper>
         <BookCard
           src="https://dumaaas.github.io/components-react/image/lord.jpg"

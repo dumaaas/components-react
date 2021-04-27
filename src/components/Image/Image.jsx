@@ -1,8 +1,9 @@
-import React from "react";
-import './Image.css';
+import React from 'react';
 
-const Image = (props) => {
-    return <img class="cg-logo" width="50px" height="60px" src={props.src} alt=""/>
+const IdPhoto = (props) => {
+    return <div>
+        <img  src={props.src} alt="profile"></img>
+    </div>
 }
 
-export default Image;
+export default IdPhoto;

@@ -1,5 +1,5 @@
 import React from 'react';
-import IdPhoto from '../IdPhoto/IdPhoto';
+import Image from '../Image/Image';
 import './MovieCard.css';
 import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 import MovieIcon from '@material-ui/icons/Movie';
@@ -7,7 +7,7 @@ import MovieIcon from '@material-ui/icons/Movie';
 const MovieCard = (props) => {
     return <div className="wrapper-movie">
         <div className="movie-img">
-            <IdPhoto src={props.image}></IdPhoto>
+            <Image src={props.image}></Image>
         </div>
         <div className="movie-content">
             <h1>{props.name} ({props.releaseYear})</h1>

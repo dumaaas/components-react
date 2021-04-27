@@ -3,9 +3,10 @@
 .wrapper-movie {
     background: #1E1B26;
     width: 375px;
-    height: 650px;
+    height: auto;
+    padding-bottom: 20px;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-bottom: 30px;
     margin-right: 20px;
     position: relative;
     overflow: hidden;
@@ -15,6 +16,7 @@
 
 .movie-img {
     width: 100%;
+    position: relative;
 }
 
 .movie-img img {
@@ -23,7 +25,6 @@
      background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  z-index:111 !important;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   position:relative;

@@ -1,11 +1,11 @@
 import React from 'react';
-import IdPhoto from '../IdPhoto/IdPhoto';
+import Image from '../Image/Image';
 import './BookCard.css';
 
 const BookCard = (props) => {
     return <div className="wrapper-book">
-        <div className="book-img">
-            <IdPhoto src={props.src}/>
+        <div className="hidden book-img">
+            <Image src={props.src}/>
         </div>
         <div className="book-content">
             <h1>
@@ -18,7 +18,10 @@ const BookCard = (props) => {
             <h3>{props.publishYear}</h3>
             <span>Quote</span>
             <h3>{props.quote}</h3>
-            <span className="publisher">{props.publisher}</span>
+            <span className="hidden publisher">{props.publisher}</span>
+            <div className="hidden-lg img-mobile">
+                <Image src={props.src}/>
+            </div>
         </div>
     </div>
 }

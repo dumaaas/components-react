@@ -3,8 +3,8 @@
 .wrapper-book {
     background: #1E1B26;
     width: 600px;
-    height: 450px;
-    margin-top: 20px;
+    height: auto;
+    margin-bottom: 30px;
     margin-right: 20px;
     position: relative;
     overflow: hidden;
@@ -12,6 +12,34 @@
     color: #e7e7e7;
     display: flex;
     justify-content: flex-start !important;
+
+}
+
+@media screen and (max-width: 630px) {
+    .wrapper-book {
+        width: 360px !important;
+        height: auto !important;
+    }
+
+    .book-content {
+        width: 100% !important;
+    }
+
+    .publisher {
+        display: flex !important;
+    }
+}
+
+.img-mobile {
+    width: 100px !important;
+    height: 120px !important;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.img-mobile img {
+    width: 100px !important;
+    height: 120px !important;
 
 }
 
@@ -27,7 +55,7 @@
 
 .book-content {
     width: 50%;
-    height: 450px;
+    height: auto;
     background: #f2eecb;
     box-shadow: 0 0.1e 0.9em #777;
 }
